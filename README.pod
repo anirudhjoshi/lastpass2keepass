@@ -1,0 +1,59 @@
+=head1 DESCRIPTION
+
+Allows you to convert the LastPass export to a KeePass XML import.
+
+=head2 REQUIRES
+
+=over
+
+=item * Python 2.6 (sys, csv, time, datetime, itertools, re, operator, xml)
+
+=back
+
+=head2 SUPPORTS
+
+=over
+
+=item * KeePassXML
+
+=back
+
+=head2 USAGE
+
+	python lastpass2keepass.py exportedTextFile
+
+Then import the "exportedTextFile.export.xml" into KeePassx via:
+
+	File --> Import from... --> KeePassX XML (*.xml)
+
+=head2 TESTS/DEMO
+
+	python test_generator.py
+	python lastpass2keepass.py test_passwords.txt
+
+Then import the "test_passwords.txt.export.xml" into KeePassx via:
+
+	File --> Import from... --> KeePassX XML (*.xml)
+
+=head2 UTF-8
+
+This is UTF-8 compliant on *nix systems, with Python 2.6.
+
+=head1 ACKNOWLEDGEMENTS
+
+I<Python XML processing with lxml>, I<John W. Shipman>, L<http://infohost.nmt.edu/tcc/help/pubs/pylxml/>.
+I<ElementTree Overview>, I<Fredrik Lundh>, L<http://effbot.org/zone/element-index.htm>.
+
+=head1 COPYRIGHT
+
+This program is free software: you can redistribute it and/or modify it under 
+the terms of the GNU General Public License as published by the Free Software 
+Foundation, either version 3 of the License, or (at your option) any later 
+version.
+
+You should have received a copy of the GNU General Public License along with 
+this program. If not, see L<http://www.gnu.org/licenses/>.
+
+=head1 WARRANTY
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
