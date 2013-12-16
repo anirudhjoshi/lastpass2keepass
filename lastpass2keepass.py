@@ -143,7 +143,7 @@ for categoryEntries in sorted_resultant:
             ET.SubElement(entryElement, 'comment').text = str(entry[3]).replace( '|\t|', '\n').strip('"').decode("utf-8") # fix place holder
             ET.SubElement(entryElement, 'icon').text = "0"
             ET.SubElement(entryElement, 'creation').text = formattedNow
-            ET.SubElement(entryElement, 'lastaccess').text = str(entry[6]).decode("utf-8")
+            ET.SubElement(entryElement, 'lastaccess').text = str(entry[5]).decode("utf-8")
             ET.SubElement(entryElement, 'lastmod').text = formattedNow
             ET.SubElement(entryElement, 'expire').text = "Never"
 
