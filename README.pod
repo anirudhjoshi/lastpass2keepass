@@ -6,7 +6,7 @@ Allows you to convert the LastPass export to a KeePass XML import.
 
 =over
 
-=item * Python 2.6 (sys, csv, time, datetime, itertools, re, operator, xml)
+=item * Python 2.6 (sys, csv, datetime, re, xml)
 
 =back
 
@@ -56,4 +56,6 @@ this program. If not, see L<http://www.gnu.org/licenses/>.
 
 =head1 WARRANTY
 
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE. See the GNU General Public License for more details.
